@@ -1,5 +1,5 @@
 /**
-Deng's FOC 电压力矩控制例程 测试库：SimpleFOC 2.1.1 测试硬件：灯哥开源FOC V1.0
+Deng's FOC 电压力矩控制例程 测试库：SimpleFOC 2.1.1 测试硬件：灯哥开源FOC V2.0
 上电后，两个电机的力矩值已经分别设置为3和-3，会各自反方向转动
 在使用自己的电机时，请一定记得修改默认极对数，即 BLDCMotor(14) 中的值，设置为自己的极对数数字
 程序默认设置的供电电压为 16.8V,用其他电压供电请记得修改 voltage_power_supply , voltage_limit 变量中的值
