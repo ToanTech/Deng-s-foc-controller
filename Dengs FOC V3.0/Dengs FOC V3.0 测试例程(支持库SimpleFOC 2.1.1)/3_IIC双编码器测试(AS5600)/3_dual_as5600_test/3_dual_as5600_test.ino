@@ -10,7 +10,9 @@ TwoWire I2Ctwo = TwoWire(1);
 
 
 void setup() {
-
+  sensor0.update();
+  sensor1.update();
+  
   Serial.begin(115200);
   _delay(750);
 
