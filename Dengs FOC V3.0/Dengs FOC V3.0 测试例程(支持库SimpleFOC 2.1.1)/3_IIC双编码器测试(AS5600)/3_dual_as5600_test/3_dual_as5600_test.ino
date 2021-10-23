@@ -10,19 +10,20 @@ TwoWire I2Ctwo = TwoWire(1);
 
 
 void setup() {
-  sensor0.update();
-  sensor1.update();
+
   
   Serial.begin(115200);
   _delay(750);
 
-  I2Cone.begin(19,18, 400000);   //SDA1,SCL1
+  I2Cone.begin(19,18, 400000);   //SDA0,SCL0
   I2Ctwo.begin(23,5, 400000);
   sensor0.init(&I2Cone);
   sensor1.init(&I2Ctwo);
 }
 
 void loop() {
+  sensor0.update();
+  sensor1.update();
   //_delay(200);
   Serial.print(sensor0.getAngle()); 
   Serial.print(" - "); 

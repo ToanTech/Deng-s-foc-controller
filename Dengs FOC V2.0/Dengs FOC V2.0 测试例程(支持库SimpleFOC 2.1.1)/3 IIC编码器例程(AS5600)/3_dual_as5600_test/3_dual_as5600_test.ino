@@ -12,8 +12,8 @@ void setup() {
   Serial.begin(115200);
   _delay(750);
 
-  I2Cone.begin(23, 5, 400000);   //SDA1,SCL1
-  I2Ctwo.begin(19, 18, 400000);
+  I2Cone.begin(19,18, 400000);   //SDA0,SCL0
+  I2Ctwo.begin(23,5, 400000);
   sensor0.init(&I2Cone);
   sensor1.init(&I2Ctwo);
 }
