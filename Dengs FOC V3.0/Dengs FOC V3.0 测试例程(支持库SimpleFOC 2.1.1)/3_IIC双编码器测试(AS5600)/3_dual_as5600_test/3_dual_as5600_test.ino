@@ -22,8 +22,8 @@ void setup() {
 }
 
 void loop() {
-  sensor0.update();
-  sensor1.update();
+  // sensor0.update(); // 如果simplefoc库版本为2.20及以上，取消这两行的注释
+  // sensor1.update();
   //_delay(200);
   Serial.print(sensor0.getAngle()); 
   Serial.print(" - "); 
