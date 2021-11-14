@@ -13,7 +13,7 @@ BLDCMotor motor1 = BLDCMotor(7);
 BLDCDriver3PWM driver1  = BLDCDriver3PWM(26,27,14,12);
 
 //目标变量
-float target_velocity = 0;
+float target_velocity = 10;
 
 //串口指令设置
 Commander command = Commander(Serial);
