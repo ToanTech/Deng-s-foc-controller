@@ -1,6 +1,6 @@
 # 灯哥开源FOC双路无刷电机控制器
 
-​      灯哥开源 FOC 控制器是一个由灯哥开源的，基于Apache 2.0 开源协议和ESP32主控的低成本无刷电机双路FOC驱动控制板。双路总功率 240W，单路最大功率 120W，支持绝大部分的云台电机FOC 位置、速度、力矩开闭环控制。编码器方面支持常见IIC和ABI、PWM制式。**加入在线电流检测模块，实现真正完整的FOC控制**。总的来说， 灯哥开源 FOC 控制器是一个好用又便宜的双路无刷FOC驱动器，点击查看 [效果视频](https://www.bilibili.com/video/BV1Hz4y127FL/)。
+​      灯哥开源 FOC 控制器是一个由灯哥开源的，基于 [GPL-3.0](https://github.com/ToanTech/Deng-s-foc-controller/blob/master/LICENSE) 开源协议和ESP32主控的低成本无刷电机双路FOC驱动控制板。双路总功率 240W，单路最大功率 120W，支持绝大部分的云台电机FOC 位置、速度、力矩开闭环控制。编码器方面支持常见IIC和ABI、PWM制式。**加入在线电流检测模块，实现真正完整的FOC控制**。总的来说， 灯哥开源 FOC 控制器是一个好用又便宜的双路无刷FOC驱动器，点击查看 [效果视频](https://www.bilibili.com/video/BV1Hz4y127FL/)。
 
 ​     灯哥开源无刷FOC目前的发展受到灯哥开源团队的深度支持，目前已经针对这块控制板开发出了[灯哥开源无刷四足机器人](https://github.com/ToanTech/py-apple-bldc-quadruped-robot)，DIY视频和效果见：[B站](https://www.bilibili.com/video/BV1kV411i76z/)，后续还有无刷平衡车，倒立摆等等运行示例推出，敬请关注。
 
