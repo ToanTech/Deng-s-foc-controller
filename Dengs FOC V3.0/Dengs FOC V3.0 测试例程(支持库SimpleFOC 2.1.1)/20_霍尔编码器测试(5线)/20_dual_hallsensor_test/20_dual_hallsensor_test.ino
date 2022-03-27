@@ -1,13 +1,6 @@
 // Deng's FOC 五线霍尔测试例程 测试硬件：灯哥开源FOC V3.0
-// 请根据实际情况修改极对数，voltage_supply voltage_limit等参数
 #include <SimpleFOC.h>
 
-//电机实例
-BLDCMotor motor1 = BLDCMotor(1);
-BLDCDriver3PWM driver1 = BLDCDriver3PWM(32, 33, 25, 22);
-
-BLDCMotor motor2 = BLDCMotor(1);
-BLDCDriver3PWM driver2  = BLDCDriver3PWM(26, 27, 14, 12);
 
 //编码器实例
 //18——对应板上引脚SCL_0
@@ -38,21 +31,14 @@ void setup() {
   // 启用硬件中断
   sensor1.enableInterrupts(doA, doB, doC);
   sensor2.enableInterrupts(doA1, doB1, doC1);
-  motor1.linkSensor(&sensor1);
-  motor2.linkSensor(&sensor2);
+
   
-  // 驱动器设置
-  driver1.voltage_power_supply = 12;
-  driver1.init();
-  motor1.linkDriver(&driver1);
   Serial.begin(115200);
   
 
   Serial.println("Sensor ready");
   _delay(1000);
-  driver2.voltage_power_supply = 12;
-  driver2.init();
-  motor2.linkDriver(&driver2);
+
 
 }
 
