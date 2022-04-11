@@ -13,7 +13,7 @@ BLDCMotor motor1 = BLDCMotor(7);
 BLDCDriver3PWM driver1  = BLDCDriver3PWM(26,27,14,12);
 
 //目标变量
-float target_velocity = 0;
+float target_velocity = 5;
 
 //串口指令设置
 Commander command = Commander(Serial);
@@ -26,9 +26,9 @@ void setup() {
   driver.init();
   motor.linkDriver(&driver);
   motor.voltage_limit = 3;   // [V]
-  motor.velocity_limit = 30; // [rad/s]
+  motor.velocity_limit = 40; // [rad/s]
   
-  driver1.voltage_power_supply = 12;
+  driver1.voltage_power_supply = 16.8;
   driver1.init();
   motor1.linkDriver(&driver1);
   motor1.voltage_limit = 3;   // [V]

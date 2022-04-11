@@ -43,12 +43,20 @@
 
 ## 3 社区
 
-本FOC板子社区为一Q群，欢迎加入：**开源FOC无刷驱动交流群 灯哥开源 群号 778255240**
+本FOC板子社区为一Q群，欢迎加入：**开源FOC无刷驱动交流群 灯哥开源 群号 778255240（1群） 735755513（2群）**
 
 任何使用问题和 DIY 问题 都会在这里做直接的讨论解答
 
 ## 4 项目文件说明
 
 * Dengs FOC V3.0 DIY资料：BOM、原理图、PCB、Gerber
-* Dengs FOC V3.0 测试例程：14个灯哥开源FOC开环、闭环、应用方面的测试视频
+* Dengs FOC V3.0 测试例程：21个灯哥开源FOC开环、闭环、应用方面的测试视频
 * 灯哥开源 FOC 使用文档 PDF：**配置的详细方式和使用教程**
+
+## 5 DengFOC配套应用实践项目
+
+利用DengFOC做的有趣的无刷电机实践项目：
+
+[1 动量轮倒立摆项目，低成本化和小型化后应用在DengFOC上](https://github.com/ToanTech/Inverted_Pendulum_DengFOC)
+
+[2 基于DengFOC的无刷四足并联腿机器狗](https://github.com/ToanTech/py-apple-bldc-quadruped-robot)

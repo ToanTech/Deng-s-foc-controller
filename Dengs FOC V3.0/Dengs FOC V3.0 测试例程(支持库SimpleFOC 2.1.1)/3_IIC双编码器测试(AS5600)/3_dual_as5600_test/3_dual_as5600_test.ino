@@ -14,9 +14,13 @@ void setup() {
   
   Serial.begin(115200);
   _delay(750);
-
   I2Cone.begin(19,18, 400000);   //SDA0,SCL0
   I2Ctwo.begin(23,5, 400000);
+  
+  //针对最新版本ESP-Arduino 2.0.2,采用下面两句
+  //I2Cone.begin(19,18, 400000UL);   //SDA0,SCL0
+  //I2Ctwo.begin(23,5, 400000UL);
+  
   sensor0.init(&I2Cone);
   sensor1.init(&I2Ctwo);
 }
