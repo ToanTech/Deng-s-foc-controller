@@ -1,0 +1,7 @@
+下载地址
+https://pan.baidu.com/s/1z5dQ7YY8S8688JBf_0vrYg
+提取码：z85c
+
+配置说明
+首先下载并解压本文件夹中压缩文件，点击解压后文件夹中的 arduino.exe  即可打开软件，开始编译例程，愉快的玩耍
+【注意】 arduino路径不能有中文字符
