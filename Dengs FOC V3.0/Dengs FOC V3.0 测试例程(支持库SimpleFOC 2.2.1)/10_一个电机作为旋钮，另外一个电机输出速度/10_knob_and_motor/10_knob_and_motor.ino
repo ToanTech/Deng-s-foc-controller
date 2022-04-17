@@ -21,8 +21,8 @@ BLDCDriver3PWM driver1 = BLDCDriver3PWM(26, 27, 14, 12);
 
 //定义 TROT 步态变量
 void setup() {
-  I2Cone.begin(19, 18, 400000); 
-  I2Ctwo.begin(23, 5, 400000);
+  I2Cone.begin(19, 18, 400000UL); 
+  I2Ctwo.begin(23, 5, 400000UL);
   sensor.init(&I2Cone);
   sensor1.init(&I2Ctwo);
   // link the motor to the sensor

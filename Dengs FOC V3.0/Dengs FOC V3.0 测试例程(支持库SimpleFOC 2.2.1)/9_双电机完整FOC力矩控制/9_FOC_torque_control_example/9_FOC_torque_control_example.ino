@@ -34,8 +34,8 @@ void doMotor2(char* cmd){ command.motor(&motor2, cmd); }
 
 void setup() {
   // 编码器设置
-  I2Cone.begin(19,18, 400000); 
-  I2Ctwo.begin(23,5, 400000); 
+  I2Cone.begin(19,18, 400000UL); 
+  I2Ctwo.begin(23,5,400000UL); 
   sensor1.init(&I2Cone);
   sensor2.init(&I2Ctwo);
   motor1.linkSensor(&sensor1);

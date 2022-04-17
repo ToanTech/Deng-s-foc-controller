@@ -28,7 +28,7 @@ void doMotor(char* cmd){ command.motor(&motor, cmd); }
 
 void setup() {
 
-  I2Cone.begin(23,5, 400000); 
+  I2Cone.begin(23,5, 400000UL); 
   sensor.init(&I2Cone);
   motor.linkSensor(&sensor);
   // driver config

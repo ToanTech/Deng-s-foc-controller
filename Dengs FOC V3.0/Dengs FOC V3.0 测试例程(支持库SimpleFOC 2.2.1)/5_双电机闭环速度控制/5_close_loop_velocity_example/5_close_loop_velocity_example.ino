@@ -26,8 +26,8 @@ Commander command = Commander(Serial);
 void doTarget(char* cmd) { command.scalar(&target_velocity, cmd); }
 
 void setup() {
-  I2Cone.begin(19, 18, 400000); 
-  I2Ctwo.begin(23, 5, 400000);
+  I2Cone.begin(19, 18, 400000UL); 
+  I2Ctwo.begin(23, 5, 400000UL);
   sensor.init(&I2Cone);
   sensor1.init(&I2Ctwo);
   //连接motor对象与传感器对象

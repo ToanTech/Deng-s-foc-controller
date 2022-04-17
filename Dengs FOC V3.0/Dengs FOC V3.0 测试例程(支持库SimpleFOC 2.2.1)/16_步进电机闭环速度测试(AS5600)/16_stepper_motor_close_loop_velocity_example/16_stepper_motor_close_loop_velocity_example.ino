@@ -22,7 +22,7 @@ Commander command = Commander(Serial);
 void onMotor(char* cmd){ command.motor(&motor, cmd); }
 
 void setup() {
-  I2Cone.begin(23,5, 400000);   //SDA0,SCL0
+  I2Cone.begin(23,5, 400000UL);   //SDA0,SCL0
   sensor0.init(&I2Cone);
   motor.linkSensor(&sensor0);
   motor.voltage_sensor_align=10;
