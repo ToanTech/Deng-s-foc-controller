@@ -25,6 +25,8 @@ void setup() {
 
 void loop() {
   //_delay(200);
+  sensor0.update();
+  sensor1.update();
   Serial.print(sensor0.getAngle()); 
   Serial.print(" - "); 
   Serial.print(sensor1.getAngle());
