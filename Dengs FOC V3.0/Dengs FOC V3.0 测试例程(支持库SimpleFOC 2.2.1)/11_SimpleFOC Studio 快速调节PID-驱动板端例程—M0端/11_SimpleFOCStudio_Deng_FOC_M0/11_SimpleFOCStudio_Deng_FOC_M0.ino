@@ -33,6 +33,7 @@ void setup() {
   motor.linkSensor(&sensor);
   // driver config
   // power supply voltage [V]
+  //driver.pwm_frequency = 100000;
   driver.voltage_power_supply = 16.8;
   driver.init();
   // link driver
