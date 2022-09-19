@@ -59,6 +59,9 @@
 
 [1 动量轮倒立摆项目，低成本化和小型化后应用在DengFOC上](https://github.com/ToanTech/Inverted_Pendulum_DengFOC)
 
-[2 自平衡 莱洛三角形](https://github.com/ToanTech/Lailuo_DengFOC)
+[2 自平衡 DengFOC莱洛三角形](https://github.com/ToanTech/Lailuo_DengFOC)
 
-[3 基于DengFOC的无刷四足并联腿机器狗](https://github.com/ToanTech/py-apple-bldc-quadruped-robot)
+[3 自平衡 DengFOC无刷平衡车](https://github.com/ToanTech/Balance_Bot_DengFOC)
+
+[4 基于DengFOC的无刷四足并联腿机器狗](https://github.com/ToanTech/py-apple-bldc-quadruped-robot)
+
