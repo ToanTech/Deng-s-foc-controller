@@ -10,7 +10,7 @@
 
 ![image1](pic/PAFOC_front_v3.jpg)
 
-## 1 软件特性（支持 SimpleFOC库 2.2.1--最新库）
+## 1 软件特性（支持 SimpleFOC库 2.2.2--最新库）
 
   作为国内最早引入 SimpleFOC 的团队，我们一直在致力深度改进 SimpleFOC硬件使其本土化，让大家能够以低廉的价格玩动无刷FOC算法。SimpleFOC是一个支持强大的开源库，可以实现无刷电机开闭环力矩、速度、位置控制，具体特性如下：
 
