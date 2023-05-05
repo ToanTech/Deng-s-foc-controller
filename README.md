@@ -47,7 +47,7 @@
 
 1 [灯哥开源 淘宝店--一站配齐DengFOC板](https://shop564514875.taobao.com/) 您的支持就是我们持续做开源内容和课程的动力，项目收益将用于后续开发DengFOC和做课程~
 
-2 [DengFOC硬件 Github](https://github.com/ToanTech/Deng-s-foc-controller)
+2 [DengFOC库 Github](https://github.com/ToanTech/DengFOC_Lib)
 
 3 [DengFOC官网](dengfoc.com) 包含课程文字版讲义，DengFOC使用文档，库使用方法等。
 
