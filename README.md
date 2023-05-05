@@ -91,3 +91,6 @@
 
 5b [【手把手教写FOC算法】5b_开环速度代码编程+硬件调试教学](https://www.bilibili.com/video/BV16X4y167XZ/)
 
+6a [【手把手教写FOC算法】6a_撰写闭环位置代码的前置知识](https://www.bilibili.com/video/BV1Rm4y1871K/)
+
+6b [【手把手教写FOC算法】6b_闭环位置代码编程+硬件调试教学](https://www.bilibili.com/video/BV1yh4y1J7Xx/)
