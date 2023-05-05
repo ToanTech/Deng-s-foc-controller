@@ -41,19 +41,29 @@
 | 电流检测参考电压 | 3.3V                                                         |
 | 电流检测最大电流 | 3.3A                                                         |
 
-## 3 社区
+## 3 重要链接
 
-本FOC板子社区为一Q群，欢迎加入：**开源FOC无刷驱动交流群 灯哥开源 群号 778255240（1群） 735755513（2群）**
+本 FOC 库与 DengFOC 硬件联合组成一整套完整可用的 FOC 电机驱动方案，资料链接：
+
+1 [灯哥开源 淘宝店--一站配齐DengFOC板](https://shop564514875.taobao.com/) 您的支持就是我们持续做开源内容和课程的动力，项目收益将用于后续开发DengFOC和做课程~
+
+2 [DengFOC硬件 Github](https://github.com/ToanTech/Deng-s-foc-controller)
+
+3 [DengFOC官网](dengfoc.com) 包含课程文字版讲义，DengFOC使用文档，库使用方法等。
+
+## 4 社区
+
+本FOC板子社区唯一Q群，欢迎加入：**开源FOC无刷驱动交流群 灯哥开源 群号 778255240（1群） 735755513（2群）471832283（3群）**
 
 任何使用问题和 DIY 问题 都会在这里做直接的讨论解答
 
-## 4 项目文件说明
+## 5 项目文件说明
 
 * Dengs FOC V3.0 DIY资料：BOM、原理图、PCB、Gerber
 * Dengs FOC V3.0 测试例程：21个灯哥开源FOC开环、闭环、应用方面的测试视频
 * 灯哥开源 FOC 使用文档 PDF：**配置的详细方式和使用教程**
 
-## 5 DengFOC配套应用实践项目
+## 6 DengFOC配套应用实践项目
 
 利用DengFOC做的有趣的无刷电机实践项目：
 
@@ -64,4 +74,20 @@
 [3 自平衡 DengFOC无刷平衡车](https://github.com/ToanTech/Balance_Bot_DengFOC)
 
 [4 基于DengFOC的无刷四足并联腿机器狗](https://github.com/ToanTech/py-apple-bldc-quadruped-robot)
+
+## 7 免费手把手教写FOC算法原理课
+
+为了方便大家更进一步的理解FOC的算法和原理，我做了手把手教些FOC算法原理课，通过这些原理课你能够快速的从原理角度理解FOC知识并尝试写出自己的FOC基本功能库，视频链接：
+
+1 [【手把手教写FOC算法】1_起源，无刷电机概念与控制原理](https://www.bilibili.com/video/BV1dy4y1X7yx)
+
+2 [【手把手教写FOC算法】2_克拉克变换，建立简化电机数学模型](https://www.bilibili.com/video/BV1x84y1V76u/)
+
+3 [【手把手教写FOC算法】3_等幅值变换与克拉克逆变换](https://www.bilibili.com/video/BV13s4y1Z7Tg/)
+
+4 [【手把手教写FOC算法】4_帕克变换](https://www.bilibili.com/video/BV1t24y1u7do/)
+
+5a [【手把手教写FOC算法】5a_撰写开环速度代码的前置知识](https://www.bilibili.com/video/BV1Pc411s7mP/)
+
+5b [【手把手教写FOC算法】5b_开环速度代码编程+硬件调试教学](https://www.bilibili.com/video/BV16X4y167XZ/)
 
