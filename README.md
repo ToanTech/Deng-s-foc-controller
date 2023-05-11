@@ -49,7 +49,7 @@
 
 2 [DengFOC库 Github](https://github.com/ToanTech/DengFOC_Lib)
 
-3 [DengFOC官网](dengfoc.com) 包含课程文字版讲义，DengFOC使用文档，库使用方法等。
+3 [DengFOC官网](http://dengfoc.com/#/) 包含课程文字版讲义，DengFOC使用文档，库使用方法等。
 
 ## 4 社区
 
