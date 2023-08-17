@@ -53,7 +53,7 @@
 
 ## 4 社区
 
-本FOC板子社区唯三Q群，欢迎加入：**开源FOC无刷驱动交流群 灯哥开源 群号 778255240（1群） 735755513（2群）471832283（3群）**
+本FOC板子社区唯三Q群，欢迎加入：**开源FOC无刷驱动交流群 灯哥开源 群号 778255240（1群） 735755513（2群）471832283（3群） 834835665（4群）**
 
 任何使用问题和 DIY 问题 都会在这里做直接的讨论解答
 
@@ -94,3 +94,15 @@
 6a [【手把手教写FOC算法】6a_撰写闭环位置代码的前置知识](https://www.bilibili.com/video/BV1Rm4y1871K/)
 
 6b [【手把手教写FOC算法】6b_闭环位置代码编程+硬件调试教学](https://www.bilibili.com/video/BV1yh4y1J7Xx/)
+
+7a1 [【手把手教写FOC算法】7a1_写闭环速度代码的前置知识](https://www.bilibili.com/video/BV18m4y1v75j/?spm_id_from=333.788&vd_source=365d5478018f3e4c39b71b3dd6a7dd0a)
+
+7a2[【手把手教写FOC算法】7a2_速度低通滤波器](https://www.bilibili.com/video/BV16h4y1X7gZ/?spm_id_from=333.999.0.0)
+
+7a3 [【手把手教写FOC算法】7a3_速度PI控制器](https://www.bilibili.com/video/BV17s4y1y767/?spm_id_from=333.999.0.0)
+
+7b [【手把手教写FOC算法】7b_闭环速度代码编程+硬件调试教学](https://www.bilibili.com/video/BV1tu4y1o7WU/?spm_id_from=333.999.0.0)
+
+8a [【手把手教写FOC算法】8a_撰写电流环代码的前置知识](https://www.bilibili.com/video/BV1z14y1v7yS/?spm_id_from=333.999.0.0)
+
+8b [【手把手教写FOC算法】8b_精确电流力矩环代码编程+硬件调试教学](https://www.bilibili.com/video/BV1Sh4y1Q7ue/?spm_id_from=333.999.0.0)
