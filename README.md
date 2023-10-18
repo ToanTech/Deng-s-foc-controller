@@ -106,3 +106,7 @@
 8a [【手把手教写FOC算法】8a_撰写电流环代码的前置知识](https://www.bilibili.com/video/BV1z14y1v7yS/?spm_id_from=333.999.0.0)
 
 8b [【手把手教写FOC算法】8b_精确电流力矩环代码编程+硬件调试教学](https://www.bilibili.com/video/BV1Sh4y1Q7ue/?spm_id_from=333.999.0.0)
+
+9a[【手把手教写FOC算法】9a_用电流环改进速度和位置闭环-前置知识](https://www.bilibili.com/video/BV1Zy4y1A7pL/)
+
+9b[【手把手教写FOC算法】9b_电流环改进速度和位置闭环代码编程+硬件调试教学](https://www.bilibili.com/video/BV1dy4y1N798/)
